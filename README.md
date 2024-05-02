@@ -1,4 +1,4 @@
-# cpuminer
+# Nito CPU-miner
 A Nito optimized cpu miner.
 
 # Build for Linux
