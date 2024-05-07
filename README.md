@@ -18,7 +18,7 @@ chmod +x *.sh
 ***Run node && cpuminer on the same PC!***
 
 # Linux Solo - Mainnet - sha256d
-./cpuminer -a sha256d -o http://127.0.0.1:12250/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=nito1qsd3slhjrfpks6twytesgj04vxecg5du0a83xdj -D
+./cpuminer -a sha256d -o http://127.0.0.1:12250/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=nito1qmf7tvcfmq942ry2j0ysyxg69dd666fn5gxaprl -D
 
 # Linux Solo - Testnet - sha256d
 ./cpuminer -a sha256d -o http://127.0.0.1:12450/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=tn1qu4ftg7z3e2nph5nd2kzauts53tzus5t5kc7qfv -D
