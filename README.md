@@ -21,7 +21,7 @@ chmod +x *.sh
 ./cpuminer -a sha256d -o http://127.0.0.1:12250/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=nito1qsd3slhjrfpks6twytesgj04vxecg5du0a83xdj -D
 
 # Linux Solo - Testnet - sha256d
-./cpuminer -a sha256d -o http://127.0.0.1:12450/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=tn1qu0j9dma5c9pej9plaths6a4ekaef4la4qzlhey -D
+./cpuminer -a sha256d -o http://127.0.0.1:12450/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=tn1qu4ftg7z3e2nph5nd2kzauts53tzus5t5kc7qfv -D
 
 
 # Help
