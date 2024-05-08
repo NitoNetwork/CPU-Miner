@@ -7,7 +7,7 @@ sudo apt-get install build-essential binutils automake libssl-dev libcurl4-opens
 
 git clone https://github.com/NitoCoin/CPU-Miner/
 
-cd cpuminer
+cd CPU-Miner
 
 chmod +x *.sh
 
