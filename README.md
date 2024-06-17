@@ -5,7 +5,7 @@ A Nito optimized cpu miner.
 ```bash
 sudo apt-get install build-essential binutils automake libssl-dev libcurl4-openssl-dev lib32z1-dev libjansson-dev libgmp-dev git
 
-git clone https://github.com/NitoCoin/CPU-Miner/
+git clone https://github.com/NitoNetwork/CPU-Miner/
 
 cd CPU-Miner
 
