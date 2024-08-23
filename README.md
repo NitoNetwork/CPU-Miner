@@ -18,10 +18,10 @@ chmod +x *.sh
 ***Run node && cpuminer on the same PC!***
 
 # Linux Solo - Mainnet - sha256d
-./cpuminer -a sha256d -o http://127.0.0.1:12250/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=nito1qmf7tvcfmq942ry2j0ysyxg69dd666fn5gxaprl -D
+./cpuminer -a sha256d -o http://127.0.0.1:8825/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=nito1qmf7tvcfmq942ry2j0ysyxg69dd666fn5gxaprl -D
 
 # Linux Solo - Testnet - sha256d
-./cpuminer -a sha256d -o http://127.0.0.1:12450/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=tn1qu4ftg7z3e2nph5nd2kzauts53tzus5t5kc7qfv -D
+./cpuminer -a sha256d -o http://127.0.0.1:8845/ --userpass=user:pass --no-getwork --no-stratum --coinbase-addr=tn1qu4ftg7z3e2nph5nd2kzauts53tzus5t5kc7qfv -D
 
 
 # Help
@@ -39,7 +39,7 @@ server=1
 rpcuser=user
 rpcpassword=pass
 rpcallowip=0.0.0.0/0
-rpcport=12250
+rpcport=8825
 ```
 # Testnet config ( nito.conf )
 ```bash
@@ -52,5 +52,5 @@ server=1
 rpcuser=user
 rpcpassword=pass
 rpcallowip=0.0.0.0/0
-rpcport=12450
+rpcport=8845
 ```
